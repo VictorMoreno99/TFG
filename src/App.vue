@@ -17,6 +17,8 @@ import Menu from './components/Menu.vue'
 import Endgame from './components/Endgame.vue'
 import Start from './components/Start.vue'
 import Login from './components/Login.vue'
+import PreQuestion from "@/components/PreQuestion";
+import PostQuestion from "@/components/PostQuestion";
 
 export default {
   name: 'App',
@@ -34,7 +36,9 @@ export default {
     Menu,
     Endgame,
     Start,
-    Login
+    Login,
+    PreQuestion,
+    PostQuestion
   },
   methods:{
     setStage: function (v) {
@@ -52,8 +56,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  text-align: center;}
 </style>

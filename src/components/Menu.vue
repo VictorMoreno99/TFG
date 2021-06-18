@@ -1,7 +1,7 @@
 <template>
   <div id="Menu">
-    <h2> Hi {{this.name}}! </h2>
-    <h3> Select a level </h3>
+    <h1> Hi {{this.name}}! </h1>
+    <h3> Select a level: </h3>
     <button v-on:click="$emit('swapto', 'Level1')" > Level 1 </button>
     <button v-on:click="$emit( 'swapto', 'Level2')"> Level 2 </button>
     <button v-on:click="$emit( 'swapto', 'Level3')"> Level 3 </button>
